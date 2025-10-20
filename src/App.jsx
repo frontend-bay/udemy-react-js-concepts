@@ -1,7 +1,8 @@
-import ArrayDemo from "./basicConcepts/ArrayDemo.jsx";
-import OnClickAndStateDemo from "./basicConcepts/OnClickAndStateDemo.jsx";
-import PropsDemo from "./basicConcepts/PropsDemo.jsx";
-import DataAsChildDemo from "./basicConcepts/DataAsChildDemo.jsx";
+import ArrayDemo from "./basic-react-concepts/ArrayDemo.jsx";
+import OnClickAndStateDemo from "./basic-react-concepts/OnClickAndStateDemo.jsx";
+import PropsDemo from "./basic-react-concepts/PropsDemo.jsx";
+import DataAsChildDemo from "./basic-react-concepts/DataAsChildDemo.jsx";
+import CardListDemo from "./react-with-css/CardList/CardListDemo.jsx";
 
 function App() {
 
@@ -10,7 +11,8 @@ function App() {
             {/*<ArrayDemo></ArrayDemo>*/}
             {/*<OnClickAndStateDemo></OnClickAndStateDemo>*/}
             {/*<PropsDemo></PropsDemo>*/}
-            <DataAsChildDemo></DataAsChildDemo>
+            {/*<DataAsChildDemo></DataAsChildDemo>*/}
+            <CardListDemo></CardListDemo>
         </>
     )
 }
