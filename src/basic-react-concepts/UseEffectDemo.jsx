@@ -5,6 +5,7 @@ const UseEffectDemo = () => {
 
     const [count, setCount] = useState(0);
 
+    // with empty dependency useEffect will run once when page mount.
     useEffect( () => {
         console.log('UseEffectDemo hai');
         return () => {

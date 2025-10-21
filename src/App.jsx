@@ -6,6 +6,7 @@ import CardListDemo from "./react-with-css/CardList/CardListDemo.jsx";
 import NoteForm from "./basic-react-concepts/FormInputDemo.jsx";
 import CompleteFormInputDemo from "./basic-react-concepts/CompleteFormInputDemo.jsx";
 import UseEffectDemo from "./basic-react-concepts/UseEffectDemo.jsx";
+import UseRefDemo from "./basic-react-concepts/UseRefDemo.jsx";
 
 function App() {
 
@@ -18,7 +19,8 @@ function App() {
             {/*<CardListDemo></CardListDemo>*/}
             {/*<NoteForm />*/}
             {/*<CompleteFormInputDemo></CompleteFormInputDemo>*/}
-            <UseEffectDemo></UseEffectDemo>
+            {/*<UseEffectDemo></UseEffectDemo>*/}
+            <UseRefDemo></UseRefDemo>
         </>
     )
 }
