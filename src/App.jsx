@@ -7,6 +7,7 @@ import NoteForm from "./basic-react-concepts/FormInputDemo.jsx";
 import CompleteFormInputDemo from "./basic-react-concepts/CompleteFormInputDemo.jsx";
 import UseEffectDemo from "./basic-react-concepts/UseEffectDemo.jsx";
 import UseRefDemo from "./basic-react-concepts/UseRefDemo.jsx";
+import {UpdateContextDemo} from "./basic-react-concepts/UseContextDemo.jsx";
 
 function App() {
 
@@ -20,7 +21,8 @@ function App() {
             {/*<NoteForm />*/}
             {/*<CompleteFormInputDemo></CompleteFormInputDemo>*/}
             {/*<UseEffectDemo></UseEffectDemo>*/}
-            <UseRefDemo></UseRefDemo>
+            {/*<UseRefDemo></UseRefDemo>*/}
+            <UpdateContextDemo />
         </>
     )
 }
