@@ -1,5 +1,11 @@
 import {useState, useEffect} from "react";
 
+/**
+ *Use Case Scenario:
+ *
+ * 1) In the web page we have option to select data for page 2 or page 3, so page value
+ * update in useState and useState has been used in useEffect and useEffect call the api.
+ */
 const UseEffectDemo = () => {
 
 
