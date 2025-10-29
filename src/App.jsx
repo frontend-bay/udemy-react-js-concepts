@@ -8,6 +8,8 @@ import CompleteFormInputDemo from "./basic-react-concepts/CompleteFormInputDemo.
 import UseEffectDemo from "./basic-react-concepts/UseEffectDemo.jsx";
 import UseRefDemo from "./basic-react-concepts/UseRefDemo.jsx";
 import {UpdateContextDemo} from "./basic-react-concepts/UseContextDemo.jsx";
+import EmployeeTable from "./react-with-css/DataTable/EmployeeTable.jsx";
+import EmployeeCircle from "./react-with-css/CircularVisualization/EmployeeCircle.jsx";
 
 function App() {
 
@@ -22,7 +24,8 @@ function App() {
             {/*<CompleteFormInputDemo></CompleteFormInputDemo>*/}
             {/*<UseEffectDemo></UseEffectDemo>*/}
             {/*<UseRefDemo></UseRefDemo>*/}
-            <UpdateContextDemo />
+            {/*<UpdateContextDemo />*/}
+            <EmployeeCircle/>
         </>
     )
 }

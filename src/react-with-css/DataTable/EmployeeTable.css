@@ -1,0 +1,66 @@
+.employee-container {
+    display: flex;
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+.employee-table {
+    width: 70%;
+    border-collapse: collapse;
+    margin: 20px;
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.employee-table th, .employee-table td {
+    padding: 12px 16px;
+    border-bottom: 1px solid #ddd;
+    text-align: left;
+}
+
+.employee-table th {
+    background-color: #0078d7;
+    color: white;
+}
+
+.address-link {
+    color: #0078d7;
+    cursor: pointer;
+}
+
+.address-link:hover {
+    text-decoration: underline;
+}
+
+/* Side Panel Styling */
+.side-panel {
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%;
+    width: 30%;
+    background-color: white;
+    box-shadow: -2px 0 8px rgba(0,0,0,0.1);
+    padding: 20px;
+    transition: transform 0.3s ease-in-out;
+    animation: slideIn 0.3s forwards;
+}
+
+@keyframes slideIn {
+    from {
+        transform: translateX(100%);
+    }
+    to {
+        transform: translateX(0);
+    }
+}
+
+.close-btn {
+    background: transparent;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    float: right;
+}
