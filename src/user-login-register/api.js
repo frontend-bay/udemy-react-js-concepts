@@ -33,6 +33,7 @@ export async function apiFetch(url, options = {}) {
     // 🔄 If token expired → Refresh it →
     if (response.status === 401) {
         try {
+            console.log("getting new token using refresh token");
             token = await refreshAccessToken(); // get new token
             options.headers.Authorization = `Bearer ${token}`;
             response = await fetch(BASE_URL + url, options); // retry request

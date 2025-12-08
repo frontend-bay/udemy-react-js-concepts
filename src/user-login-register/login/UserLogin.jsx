@@ -44,17 +44,6 @@ const UserLogin = () => {
     };
 
 
-    async function getHomeData() {
-        const res = await apiFetch("/ap/auth/home", {
-            method: "GET",
-        });
-
-        if (res.ok) {
-            const data = await res.json();
-            console.log("Home data:", data);
-        }
-    }
-
     return (
         <div className="login-container">
 
