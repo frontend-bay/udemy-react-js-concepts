@@ -1,6 +1,7 @@
 
 import { useEffect, useState } from "react";
 import { apiFetch } from "./api";
+import UserLogout from "./logout/UserLogout.jsx";
 
 export default function Home() {
     const [message, setMessage] = useState("Loading...");
@@ -30,5 +31,8 @@ export default function Home() {
 
     if (error) return <h2 style={{ color: "red" }}>{error}</h2>;
 
-    return <h1>{message}</h1>;
+    return <div>
+        <UserLogout></UserLogout>
+        <h1>{message}</h1>
+    </div>;
 }

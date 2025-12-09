@@ -34,6 +34,7 @@ const UserLogin = () => {
                 localStorage.setItem("accessToken", data.accessToken);
                 alert("Login Successful! "+data.accessToken);
                 navigate("/home")
+
             } else {
                 alert("Invalid Credentials");
             }

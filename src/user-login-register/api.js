@@ -38,6 +38,7 @@ export async function apiFetch(url, options = {}) {
             options.headers.Authorization = `Bearer ${token}`;
             response = await fetch(BASE_URL + url, options); // retry request
         } catch (err) {
+            console.error("Error refreshing token:", err);
             localStorage.removeItem("accessToken");
             window.location.href = "/login";
             return;
