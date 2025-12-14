@@ -14,6 +14,7 @@ import RegisterUser from "./user-login-register/register/RegisterUser.jsx";
 import UserLogin from "./user-login-register/login/UserLogin.jsx";
 import {BrowserRouter, Routes, Route} from "react-router-dom";
 import Home from "./user-login-register/Home.jsx";
+import Practice from "./practice/Practice.jsx";
 
 function App() {
 
@@ -30,14 +31,16 @@ function App() {
             {/*<UseRefDemo></UseRefDemo>*/}
             {/*<UpdateContextDemo />*/}
             {/*<EmployeeCircle/>*/}
-            <BrowserRouter>
-                <Routes>
-                    <Route path="/" element={<UserLogin/>}/>
-                    <Route path="/login" element={<UserLogin/>}/>
-                    <Route path="/register" element={<RegisterUser/>}/>
-                    <Route path="/home" element={<Home/>}/>
-                </Routes>
-            </BrowserRouter>
+            {/*<BrowserRouter>*/}
+            {/*    <Routes>*/}
+            {/*        <Route path="/" element={<UserLogin/>}/>*/}
+            {/*        <Route path="/login" element={<UserLogin/>}/>*/}
+            {/*        <Route path="/register" element={<RegisterUser/>}/>*/}
+            {/*        <Route path="/home" element={<Home/>}/>*/}
+            {/*    </Routes>*/}
+            {/*</BrowserRouter>*/}
+
+            <Practice/>
         </>
     )
 }
