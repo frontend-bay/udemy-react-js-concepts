@@ -15,6 +15,7 @@ import UserLogin from "./user-login-register/login/UserLogin.jsx";
 import {BrowserRouter, Routes, Route} from "react-router-dom";
 import Home from "./user-login-register/Home.jsx";
 import Practice from "./practice/Practice.jsx";
+import Chatbot from "./chatbot-ui/Chatbot.jsx";
 
 function App() {
 
@@ -40,7 +41,8 @@ function App() {
             {/*    </Routes>*/}
             {/*</BrowserRouter>*/}
 
-            <Practice/>
+            {/*<Practice/>*/}
+            <Chatbot/>
         </>
     )
 }
