@@ -16,6 +16,13 @@ async function refreshAccessToken() {
     }
 }
 
+/*
+
+The apiFetch function is designed to be used after a successful user login.
+Once the login is completed, the authentication token is generated and
+stored in localStorage, and apiFetch uses this token for subsequent API calls.
+
+*/
 export async function apiFetch(url, options = {}) {
     let token = localStorage.getItem("accessToken");
 

@@ -3,7 +3,7 @@ import { useState } from "react";
 function App() {
     const [message, setMessage] = useState("");
     const [chat, setChat] = useState([]);
-    const [loading, setLoading] = useState(false); // 👈 NEW
+    const [loading, setLoading] = useState(false);
     const threadId = "3";
 
     const sendMessage = async () => {
